@@ -1,0 +1,80 @@
+1. Getting unhandled Exception when user search with 8 digit tag number.
+
+Steps to reproduce:
+1. Click on Tag number service.
+2. Enter Tag number with 8 digit.
+3. Click on Search.
+4. Verify the page.
+
+Actual Result:
+Getting unhandled Exception when user search with 8 digit tag number.
+
+Expected Result:
+User Should get proper validation message when input is incorrect.
+
+Also, if user gives 10 digit tag number getting some other error message which closes the application.
+
+
+2. Getting unhandled Exception when user click on Export to Excel option.
+
+Steps to reproduce:
+1. Click on TFN number/Phone number service.
+2. Click on Export to Excel.
+3. Verify the page.
+
+Actual Result:
+Getting unhandled Exception when user click on Export to Excel option.
+
+Expected Result:
+User Should able to View Excel sheet with results.
+
+
+3. Export to Excel option is enable when user access the inquiry service without search.
+
+Steps to Reproduce:
+1. Click on any Inquiry service.
+2. Click on Export to Excel.
+3. Verify the page.
+
+
+Actual Result:
+Export to Excel option is enable when user access the inquiry service without search.
+Since it is enable, when user click on Export to Excel, Excel sheet is displayed with grid values.
+
+Expected Result:
+Export to Excel should be enable only when there is search records.
+
+
+
+4. Getting error message when double click on vehicle where particular tag no used for search.
+
+Steps to reproduce:
+1. Click on Tag number service.
+2. Enter Tag no as 3812195.
+3. Click on Search.
+4. Double click on one of the record.
+5. Verify the page.
+
+tag no:
+3812195
+
+Actual Result:
+Getting error message when double click on vehicle where particular tag no used for search.
+Same vehicle information is working as expected in Account no service.
+
+Expected Result:
+When User double click on trip details, User Should get image when there is image for the trip.
+
+
+5.Validation check needs to be added when user selects date range after current date for search.
+
+Steps to reproduce:
+1. Click on any I"nquiry service.
+2. Select start date after current date.
+3. Verify the page.
+
+Actual Result:
+User can able to search even after current date.
+
+Expected Result:
+Validation check needs to be added when user selects date range after current date for search.
